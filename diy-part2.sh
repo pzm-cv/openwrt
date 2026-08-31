@@ -15,7 +15,6 @@
 git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 
-rm -f target/linux/ramips/patches-5.10/802-GPIO-MIPS-ralink-add-gpio-driver-for-ralink-SoC.patch
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
